@@ -1,0 +1,42 @@
+{
+    "name": "webobyte/instagram",
+    "description": "",
+    "keywords": [
+        "webobyte",
+        "instagram"
+    ],
+    "homepage": "https://github.com/webobyte/instagram",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Milad khodaverdi",
+            "email": "khodaverdi.milad23@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webobyte\\Instagram\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webobyte\\Instagram\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
